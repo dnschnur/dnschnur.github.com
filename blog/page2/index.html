@@ -4,7 +4,7 @@ section: "Test Blog"
 title: "Test Blog"
 ---
 
-{% for page in site.posts limit:paginator.per_page offset:paginator.per_page %}
+{% for page in site.posts limit:paginator.per_page offset:3 %}
 	{% include post.html %}
 {% endfor %}
 
