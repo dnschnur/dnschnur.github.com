@@ -1,0 +1,11 @@
+---
+layout: default
+section: "Test Blog"
+title: "Test Blog"
+---
+
+{% for page in site.posts limit:paginator.per_page offset:paginator.per_page * 2 %}
+	{% include post.html %}
+{% endfor %}
+
+<a href="/blog/page2" class="blog-older">Older Posts</a>
