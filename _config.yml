@@ -4,4 +4,4 @@ url: http://dnschnur.github.com
 
 markdown: redcarpet
 permalink: /blog/:year/:month/:day/:title/
-
+paginate: 3
