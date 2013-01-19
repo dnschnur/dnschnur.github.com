@@ -1,1 +1,7 @@
-permalink:   /blog/:year/:month/:day/:title/
+name: Test Blog
+description: Testing Blog Functionality
+url: http://dnschnur.github.com
+
+markdown: redcarpet
+permalink: /blog/:year/:month/:day/:title/
+
